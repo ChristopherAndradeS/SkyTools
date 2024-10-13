@@ -26,7 +26,7 @@ td#clock-div
 table, th, td
 {
   font-weight: normal;
-  border: 2px solid var(--background-color-dark);
+  border: 1px solid var(--background-color-dark);
   border-collapse: collapse;
 }
 
@@ -34,12 +34,12 @@ table#main, table#global
 {
   margin: 25px auto 25px auto;
   font-family: sans-serif;
-  width: auto;
+  width: 90vw;
 }
 
 table#main > thead > tr > th, table#global > thead > tr > th
 {
-  font-size: 1.3em;
+  font-size: 1.5vw;
   font-family: monospace;
   padding: 10px;
   background-color: var(--color5);
@@ -53,7 +53,7 @@ table#global > thead > tr > th
 
 table#main > tbody > tr > td.clock-div
 {
-  font-size: 1em;
+  font-size: 1.5vw;
   padding: 10px;
   text-align: center;
   background-color: var(--color2);
@@ -62,7 +62,7 @@ table#main > tbody > tr > td.clock-div
 
 table#main > tbody > tr > td.clock-desc
 {
-  font-size: 1em;
+  font-size: 1.5vw;
   text-align: center;
   padding: 20px;
   background-color: var(--color2);
@@ -70,21 +70,21 @@ table#main > tbody > tr > td.clock-desc
 
 table#main > tbody > tr > td
 {
-  font-size: 1em;
+  font-size: 1.5vw;
   padding: 10px;
 }
 
 table#global > tbody > tr > td
 {
   text-align: center;
-  font-size: 1.3em;
+  font-size: 1.5vw;
   padding: 10px;
   font-family: monospace;
 }
 
 table#main > tbody > tr > td.clock-diff, table#main > tbody > tr > td.clock-next
 {
-  font-size: 1.3em;
+  font-size: 1.5vw;
   font-weight: 100;
   text-align: center;
   padding: 10px;

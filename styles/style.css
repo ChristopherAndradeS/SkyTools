@@ -11,10 +11,11 @@
   --color6: #5D3E6F;
 }
 
-body
+html, body
 {
   margin: 0px;
-  background-color: var(--background-color-dark)
+  background-color: var(--background-color-dark);
+  font-family: monospace;
 }
 
 td#clock-div
@@ -26,70 +27,68 @@ td#clock-div
 table, th, td
 {
   font-weight: normal;
-  border: 1px solid var(--background-color-dark);
+  border: 2px solid var(--background-color-dark);
   border-collapse: collapse;
 }
 
 table#main, table#global
 {
-  margin: 25px auto 25px auto;
-  font-family: sans-serif;
-  width: 90vw;
+  margin: 50px auto 50px auto;
+  width: 75vw;
 }
 
 table#main > thead > tr > th, table#global > thead > tr > th
 {
-  font-size: 1.5vw;
-  font-family: monospace;
+  font-size: 1.4vw;
   padding: 10px;
   background-color: var(--color5);
   text-align: center;
 }
 
-table#global > thead > tr > th
+table#main > tbody > tr > td#clock-div
 {
-  width: 50%;
-}
-
-table#main > tbody > tr > td.clock-div
-{
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   padding: 10px;
   text-align: center;
   background-color: var(--color2);
-
 }
 
 table#main > tbody > tr > td.clock-desc
 {
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  width: 25vw;
   background-color: var(--color2);
 }
 
-table#main > tbody > tr > td
+table#main > tbody > tr > td.clock-event, table#main > tbody > tr > td#clk-treehouse-weather-state
 {
-  font-size: 1.5vw;
+  font-size: 1.4vw;
+  padding: 10px;
+  width: 25vw;
+}
+
+table#global > tbody > tr > td, table#global > thead > tr > th
+{
+  text-align: center;
+  width: 50vw;
+  font-size: 1.4vw;
   padding: 10px;
 }
 
-table#global > tbody > tr > td
+table#main > tbody > tr
 {
-  text-align: center;
-  font-size: 1.5vw;
-  padding: 10px;
-  font-family: monospace;
+  width: 25vw;
 }
 
 table#main > tbody > tr > td.clock-diff, table#main > tbody > tr > td.clock-next
 {
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   font-weight: 100;
   text-align: center;
   padding: 10px;
-  font-family: monospace;
-
+  width: 25vw;
 }
 
 tr:nth-child(odd){
